@@ -13,7 +13,7 @@
 
 # Editor.md
 
-![Editor.md Logo](https://github.com/kadoiOS/editor.md/raw/master/examples/images/logos/editormd-logo-180x180.png)
+![Editor.md Logo](https://i.ibb.co/dDHR1t8/e.webp)
 
 ![GitHub Stars](https://img.shields.io/github/stars/kadoiOS/editor.md.svg) 
 
