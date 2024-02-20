@@ -1,19 +1,31 @@
+
+---
+
 ### Features
 
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+- Offers support for both Standard Markdown/CommonMark and GitHub Flavored Markdown (GFM);
+- Encompasses a wide range of functionalities: Real-time Preview, Image upload with cross-domain support, Insertion of preformatted text/code blocks/tables, Code folding, Search and replace capabilities, Read-only mode, Multiple themes, Support for multiple languages and localization (L18n), HTML entity handling, and Syntax highlighting for code;
+- Markdown Extensions: Adds support for Table of Contents (ToC), Emojis, Task lists, and @mentions;
+- Ensures compatibility across all major browsers (IE8+), along with support for Zepto.js and optimal performance on iPad;
+- Facilitates safe parsing and filtering of HTML tags;
+- Expands Markdown syntax to include support for TeX mathematical expressions (via KaTeX), Flowcharts, and Sequence Diagrams;
+- Integrates with AMD/CMD module loaders such as Require.js & Sea.js, enabling customization and definition of editor plugins;
 
 # Editor.md
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![Editor.md Logo](https://github.com/kadoiOS/editor.md/raw/master/examples/images/logos/editormd-logo-180x180.png)
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+![GitHub Stars](https://img.shields.io/github/stars/kadoiOS/editor.md.svg) 
 
+![GitHub Forks](https://img.shields.io/github/forks/kadoiOS/editor.md.svg) 
+
+![GitHub Tags](https://img.shields.io/github/tag/kadoiOS/editor.md.svg) 
+
+![GitHub Release](https://img.shields.io/github/release/kadoiOS/editor.md.svg) 
+
+![GitHub Issues](https://img.shields.io/github/issues/kadoiOS/editor.md.svg) 
+
+![Bower Version](https://img.shields.io/bower/v/editor.md.svg)
 
 **Table of Contents**
 
@@ -21,297 +33,139 @@
 
 [TOC]
 
-#H1 header
-##H2 header
-###H3 header
-####H4 header
-#####H5 header
-######H6 header
-#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+# Link to Heading 1 [Heading link](https://github.com/kadoiOS/editor.md "Heading link")
+## Link to Heading 2 [Heading link](https://github.com/kadoiOS/editor.md "Heading link")
+### Link to Heading 3 [Heading link](https://github.com/kadoiOS/editor.md "Heading link")
+#### Link to Heading 4 [Heading link](https://github.com/kadoiOS/editor.md "Heading link")
+##### Link to Heading 5 [Heading link](https://github.com/kadoiOS/editor.md "Heading link")
+###### Link to Heading 6 [Heading link](https://github.com/kadoiOS/editor.md "Heading link")
 
-##Headers (Underline)
+## Headers (Alternative Formatting)
 
-H1 Header (Underline)
+H1 Header (Alternative Style)
 =============
 
-H2 Header (Underline)
+H2 Header (Alternative Style)
 -------------
 
-###Characters
+### Text Styling
                 
 ----
 
-~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
-*Italic*      _Italic_
-**Emphasis**  __Emphasis__
-***Emphasis Italic*** ___Emphasis Italic___
+~~Strikethrough~~ <s>Strikethrough (HTML tags enabled)</s>
+*Italic* _Italic_
+**Bold** __Bold__
+***Bold Italic*** ___Bold Italic___
 
-Superscript: X<sub>2</sub>，Subscript: O<sup>2</sup>
+Superscript: X<sub>2</sub>, Subscript: O<sup>2</sup>
 
-**Abbreviation(link HTML abbr tag)**
+**Abbreviations (HTML abbr tag)**
 
-The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
+The <abbr title="Hyper Text Markup Language">HTML</abbr> standard is overseen by the <abbr title="World Wide Web Consortium">W3C</abbr>.
 
-###Blockquotes
+### Blockquotes
 
-> Blockquotes
+> Example Blockquote
 
-Paragraphs and Line Breaks
+Text Formatting
                     
-> "Blockquotes Blockquotes", [Link](http://localhost/)。
+> "A notable quote", [Source Link](http://example.com)。
 
-###Links
+### Hyperlinks
 
-[Links](http://localhost/)
+[Link Example](http://example.com)
 
-[Links with title](http://localhost/ "link title")
+[Link with Title](http://example.com "Link Title")
 
-`<link>` : <https://github.com>
+`<Link>` : <https://github.com>
 
-[Reference link][id/name] 
+[Reference Link][ref] 
 
-[id/name]: http://link-url/
+[ref]: http://example.com/
 
-GFM a-tail link @pandao
+GFM Auto-linking @username
 
-###Code Blocks (multi-language) & highlighting
+### Code Snippets (Multiple Languages) & Syntax Highlighting
 
-####Inline code
+#### Inline Code
 
-`$ npm install marked`
+`$ npm install package-name`
 
-####Code Blocks (Indented style)
+#### Code Blocks (Indented Style)
 
-Indented 4 spaces, like `<pre>` (Preformatted Text).
+Indented 4 spaces, resembling `<pre>` tags.
 
     <?php
-        echo "Hello world!";
+        echo "Sample code!";
     ?>
     
-Code Blocks (Preformatted text):
+Indented Code Blocks (For Tables):
 
-    | First Header  | Second Header |
-    | ------------- | ------------- |
-    | Content Cell  | Content Cell  |
-    | Content Cell  | Content Cell  |
+    | Header 1     | Header 2     |
+    | ------------ | ------------ |
+    | Row 1, Cell 1| Row 1, Cell 2|
+    | Row 2, Cell 1| Row 2, Cell 2|
 
-####Javascript　
+#### JavaScript Example
 
 ```javascript
-function test(){
-	console.log("Hello world!");
+function sampleFunction(){
+	console.log("Sample output!");
 }
  
 (function(){
-    var box = function(){
-        return box.fn.init();
+    var module = function(){
+        return module.fn.init();
     };
 
-    box.prototype = box.fn = {
+    module.prototype = module.fn = {
         init : function(){
-            console.log('box.init()');
+            console.log('module.init()');
 
 			return this;
         },
 
 		add : function(str){
-			alert("add", str);
+			alert("Added", str);
 
 			return this;
 		},
 
 		remove : function(str){
-			alert("remove", str);
+		
+
+	alert("Removed", str);
 
 			return this;
 		}
     };
     
-    box.fn.init.prototype = box.fn;
+    module.fn.init.prototype = module.fn;
     
-    window.box =box;
+    window.module = module;
 })();
 
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
+var myModule = module();
+myModule.add("Example").remove("Example");
 ```
 
-####HTML code
+#### HTML Sample Code
 
 ```html
 <!DOCTYPE html>
 <html>
     <head>
-        <mate charest="utf-8" />
-        <title>Hello world!</title>
+        <meta charset="utf-8" />
+        <title>Sample Title</title>
     </head>
     <body>
-        <h1>Hello world!</h1>
+        <h1>Sample Heading</h1>
     </body>
 </html>
 ```
-
-###Images
-
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-> Follow your heart.
-
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
-
-> 图为：厦门白城沙滩 Xiamen
-
-图片加链接 (Image + Link)：
-
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
-
-> 图为：李健首张专辑《似水流年》封面
-                
-----
-
-###Lists
-
-####Unordered list (-)
-
-- Item A
-- Item B
-- Item C
-     
-####Unordered list (*)
-
-* Item A
-* Item B
-* Item C
-
-####Unordered list (plus sign and nested)
-                
-+ Item A
-+ Item B
-    + Item B 1
-    + Item B 2
-    + Item B 3
-+ Item C
-    * Item C 1
-    * Item C 2
-    * Item C 3
-
-####Ordered list
-                
-1. Item A
-2. Item B
-3. Item C
-                
-----
-                    
-###Tables
-                    
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
-
-| Item      | Value |
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-                
-----
-
-####HTML entities
-
-&copy; &  &uml; &trade; &iexcl; &pound;
-&amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot; 
-
-X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
-
-18&ordm;C  &quot;  &apos;
-
-##Escaping for Special Characters
-
-\*literal asterisks\*
-
-##Markdown extras
-
-###GFM task list
-
-- [x] GFM task list 1
-- [x] GFM task list 2
-- [ ] GFM task list 3
-    - [ ] GFM task list 3-1
-    - [ ] GFM task list 3-2
-    - [ ] GFM task list 3-3
-- [ ] GFM task list 4
-    - [ ] GFM task list 4-1
-    - [ ] GFM task list 4-2
-
-###Emoji mixed :smiley:
-
-> Blockquotes :star:
-
-####GFM task lists & Emoji & fontAwesome icon emoji & editormd logo emoji :editormd-logo-5x:
-
-- [x] :smiley: @mentions, :smiley: #refs, [links](), **formatting**, and <del>tags</del> supported :editormd-logo:;
-- [x] list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;
-- [x] [ ] :smiley: this is a complete item :smiley:;
-- [ ] []this is an incomplete item [test link](#) :fa-star: @pandao; 
-- [ ] [ ]this is an incomplete item :fa-star: :fa-gear:;
-    - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
-    - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
-            
-###TeX(LaTeX)
-   
-$$E=mc^2$$
-
-Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
-
-$$\(\sqrt{3x-1}+(1+x)^2\)$$
-                    
-$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
-                
-###FlowChart
-
-```flow
-st=>start: Login
-op=>operation: Login operation
-cond=>condition: Successful Yes or No?
-e=>end: To admin
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-###Sequence Diagram
-                    
-```seq
-Andrew->China: Says Hello 
-Note right of China: China thinks\nabout it 
-China-->Andrew: How are you? 
-Andrew->>China: I am good thanks!
-```
-
-###End
